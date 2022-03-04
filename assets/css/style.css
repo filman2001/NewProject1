@@ -1,4 +1,9 @@
 @import url(./filmanstyle.css);
-body{
+@import url(./aytenstyle.css);
+@import url(./turalstyle.css);
+@import url(./guldanastyle.css);
+*{
+    box-sizing: border-box;
     padding: 0;
+    margin: 0;
 }
