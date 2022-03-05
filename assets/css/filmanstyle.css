@@ -20,6 +20,7 @@
     margin-left: 126px;
     margin-top: 62px;
     padding-left: 46px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
 }
 
 .rev_p{
@@ -70,6 +71,8 @@
 .p-head{
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
+    height: 32px;
+    margin-bottom: 9px
 ;
 
 }
