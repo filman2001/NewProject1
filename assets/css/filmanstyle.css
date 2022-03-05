@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+.review .back{
+    background-color: #EFEFEF; 
+    height: 780px;
+}
+.rev_head{
+    font-size: 55px;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 122px;
+    padding-top: 91px;
+
+}
+
+.rev_card{
+    background-color: #FFFFFF;
+    width: 791px;
+    height: 451px;
+    border-radius: 30px;
+    margin-left: 126px;
+    margin-top: 62px;
+}
