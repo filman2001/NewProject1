@@ -7,3 +7,15 @@
     padding: 0;
     margin: 0;
 }
+.container-large {
+    width: 1196px;
+    margin: auto;
+}
+.container-medium {
+    max-width: 692px;
+    margin: auto;
+}
+.container-small {
+    max-width: 305px;
+    margin: auto;
+}
