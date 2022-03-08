@@ -38,10 +38,10 @@ main {
 .main-content-text-t {
     width: 628px;
 }
-.title-t {
+.main-title-t {
     font-family: Roboto Slab;
 }
-.title-t h1 {
+.main-title-t h1 {
     font-size: 80px;
 }
 .main-content-text-t p {
@@ -89,6 +89,50 @@ main {
     margin-top: 23px;
 }
 
+/* Cards */
+
+.program {
+    padding-bottom: 121px;
+    
+}
+.title-t h1{
+    font-family: Roboto Slab;
+    font-size: 55px;
+}
+.container-cards-t {
+    padding-top: 95px;
+    max-width: 1305px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    width: 399px;
+    height: 328px;
+    font-family: Roboto;
+    border-radius: 30px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    margin: 0 18px;
+    margin-bottom: 41px;
+}
+.card-image img {
+    width: 100%;
+}
+.card h2 {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 11px;
+}
+.card p {
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 32px;
+}
+.card:nth-child(8) p {
+    margin-top: 0;
+}
+
+/* Responsive */
 
 @media screen and (max-width: 1279px) and (min-width: 834px) {
     .container-t {
@@ -115,7 +159,7 @@ main {
     .main-content-text-t {
         width: 365px;
     }
-    .title-t h1 {
+    .main-title-t h1 {
         font-size: 46px;
     }
     .main-content-text-t p {
@@ -153,9 +197,42 @@ main {
         line-height: 15px;
         margin-top: 16px;
     }
+    .program {
+        padding-bottom: 52px;
+    }
+    .title-t h1{
+        font-size: 32px;
+    }
+    .container-cards-t {
+        padding-top: 55px;
+        max-width: 754px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card {
+        width: 231px;
+        height: 190px;
+        border-radius: 18px;
+        margin: 0 10px;
+        margin-bottom: 24px;
+    }
+    .card h2 {
+        font-size: 17px;
+        margin-left: 11px;
+        margin-top: 7px;
+    }
+    .card p {
+        font-size: 14px;
+        margin-left: 11px;
+        margin-top: 18px;
+    }
+    .card:nth-child(8) p {
+        margin-top: 0;
+    }
 }
 
-@media screen and (max-width: 833px) and (min-width: 320px) {
+@media screen and (max-width: 833px) {
     .container-t {
         width: 305px;
         margin: auto;
@@ -183,7 +260,7 @@ main {
     .main-content-text-t {
         width: 293px;
     }
-    .title-t h1 {
+    .main-title-t h1 {
         font-size: 37px;
     }
     .main-content-text-t p {
@@ -222,5 +299,38 @@ main {
         font-size: 11px;
         line-height: 14px;
         margin-top: 10px;
+    }
+    .program {
+        padding-bottom: 47px;
+    }
+    .title-t h1{
+        font-size: 26px;
+    }
+    .container-cards-t {
+        padding-top: 36px;
+        max-width: 186px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card {
+        width: 186px;
+        height: 153px;
+        border-radius: 14px;
+        margin: 0;
+        margin-bottom: 24px;
+    }
+    .card h2 {
+        font-size: 14px;
+        margin-left: 9px;
+        margin-top: 5px;
+    }
+    .card p {
+        font-size: 12px;
+        margin-left: 9px;
+        margin-top: 15px;
+    }
+    .card:nth-child(8) p {
+        margin-top: 0;
     }
 }
