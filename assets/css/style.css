@@ -2,8 +2,23 @@
 @import url(./aytenstyle.css);
 @import url(./turalstyle.css);
 @import url(./guldanastyle.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+.container-large {
+    width: 1196px;
+    margin: auto;
+}
+.container-medium {
+    max-width: 692px;
+    margin: auto;
+}
+.container-small {
+    max-width: 305px;
+    margin: auto;
 }
