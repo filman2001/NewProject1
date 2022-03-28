@@ -5,7 +5,7 @@ header {
     max-width: 1196px;
     margin: auto;
 }
-.logo img {
+.logo-t img {
     width: 112px;
 }
 main {
@@ -101,7 +101,7 @@ main {
 }
 .container-cards-t {
     padding-top: 95px;
-    max-width: 1305px;
+    width: 1310px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -123,13 +123,16 @@ main {
     margin-left: 20px;
     margin-top: 11px;
 }
+.card:nth-child(8) h2 {
+    line-height: 30px;
+}
 .card p {
     font-size: 25px;
     margin-left: 20px;
     margin-top: 32px;
 }
 .card:nth-child(8) p {
-    margin-top: 0;
+    margin-top: 30px;
 }
 
 /* Responsive */
@@ -139,11 +142,12 @@ main {
         max-width: 694px;
         margin: auto;
     }
-    .logo img {
+    .logo-t img {
         width: 65px;
     }
     main {
         padding-top: 84px;
+        padding-bottom: 100px;
     }
     .calendar-t-item img {
         width: 12px;
@@ -221,14 +225,19 @@ main {
         font-size: 17px;
         margin-left: 11px;
         margin-top: 7px;
+        line-height: 22px;
     }
     .card p {
         font-size: 14px;
         margin-left: 11px;
         margin-top: 18px;
+        line-height: 18px;
     }
     .card:nth-child(8) p {
-        margin-top: 0;
+        margin-top: 8px;
+    }
+    .card:nth-child(8) h2 {
+        line-height: 17px;
     }
 }
 
@@ -240,10 +249,11 @@ main {
     header {
         padding-top: 36px;
     }
-    .logo img {
+    .logo-t img {
         width: 52px;
     }
     main {
+        padding-bottom: 75px;
         padding-top: 45px;
     }
     .calendar-t-item img {
@@ -322,15 +332,20 @@ main {
     }
     .card h2 {
         font-size: 14px;
+        line-height: 18px;
         margin-left: 9px;
         margin-top: 5px;
     }
     .card p {
         font-size: 12px;
+        line-height: 15px;
         margin-left: 9px;
         margin-top: 15px;
     }
     .card:nth-child(8) p {
-        margin-top: 0;
+        margin-top: 5px;
+    }
+    .card:nth-child(8) h2{
+        line-height: 14px;
     }
 }
