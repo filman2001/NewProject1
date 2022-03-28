@@ -5,7 +5,7 @@ header {
     max-width: 1196px;
     margin: auto;
 }
-.logo img {
+.logo-t img {
     width: 112px;
 }
 main {
@@ -142,11 +142,12 @@ main {
         max-width: 694px;
         margin: auto;
     }
-    .logo img {
+    .logo-t img {
         width: 65px;
     }
     main {
         padding-top: 84px;
+        padding-bottom: 100px;
     }
     .calendar-t-item img {
         width: 12px;
@@ -248,10 +249,11 @@ main {
     header {
         padding-top: 36px;
     }
-    .logo img {
+    .logo-t img {
         width: 52px;
     }
     main {
+        padding-bottom: 75px;
         padding-top: 45px;
     }
     .calendar-t-item img {
