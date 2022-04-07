@@ -1,0 +1,351 @@
+header {
+    padding-top: 21px;
+}
+.container-t {
+    max-width: 1196px;
+    margin: auto;
+}
+.logo-t img {
+    width: 112px;
+}
+main {
+    padding-top: 97px;
+    font-family: Roboto;
+    padding-bottom: 240px;
+}
+.calendar-t {
+    display: flex;
+}
+.calendar-t-item {
+    display: flex;
+}
+.calendar-t-item img {
+    width: 22px;
+}
+.calendar-t-item p {
+    width: 130px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.calendar-t-item:nth-child(1) {
+    margin-right: 25px;
+}
+.main-content-t {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-content-text-t {
+    width: 628px;
+}
+.main-title-t {
+    font-family: Roboto Slab;
+}
+.main-title-t h1 {
+    font-size: 80px;
+}
+.main-content-text-t p {
+    width: 414px;
+    font-size: 20px;
+    font-family: Roboto;
+}
+.main-image-t {
+    margin-left: 140px;
+}
+.main-image-t img {
+    width: 304px;
+}
+.ellipse-1 {
+    width: 274px;
+    height: 41px;
+    border-radius: 50%;
+    background-color: #EFEFEF;
+    position: relative;
+    bottom: 21px;
+    left: 31px;
+    z-index: -1;
+}
+.tarkovsky-t {
+    width: 484px;
+    height: 200px;
+    background-color: #1E4681;
+    margin-left: 287px;
+    margin-top: 87px;
+    padding: 20px 26px;
+}
+.tarkovsky-text {
+    width: 430px;
+    height: 113px;
+    font-size: 25px;
+    color: #FFF;
+    font-family: Roboto Slab;
+}
+.author-t {
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFF;
+    text-align: right;
+    margin-top: 23px;
+}
+
+/* Cards */
+
+.program {
+    padding-bottom: 121px;
+    
+}
+.title-t h1{
+    font-family: Roboto Slab;
+    font-size: 55px;
+}
+.container-cards-t {
+    padding-top: 95px;
+    width: 1310px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    width: 399px;
+    height: 328px;
+    font-family: Roboto;
+    border-radius: 30px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    margin: 0 18px;
+    margin-bottom: 41px;
+}
+.card-image img {
+    width: 100%;
+}
+.card h2 {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 11px;
+}
+.card:nth-child(8) h2 {
+    line-height: 30px;
+}
+.card p {
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 32px;
+}
+.card:nth-child(8) p {
+    margin-top: 30px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1279px) and (min-width: 834px) {
+    .container-t {
+        max-width: 694px;
+        margin: auto;
+    }
+    .logo-t img {
+        width: 65px;
+    }
+    main {
+        padding-top: 84px;
+        padding-bottom: 100px;
+    }
+    .calendar-t-item img {
+        width: 12px;
+    }
+    .calendar-t-item p {
+        width: 75px;
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .main-content-t {
+        padding-top: 8px;
+    }
+    .main-content-text-t {
+        width: 365px;
+    }
+    .main-title-t h1 {
+        font-size: 46px;
+    }
+    .main-content-text-t p {
+        width: 264px;
+        font-size: 12px;
+    }
+    .main-image-t {
+        margin-left: 81px;
+    }
+    .main-image-t img {
+        width: 176px;
+    }
+    .ellipse-1 {
+        width: 158px;
+        height: 26px;
+        border-radius: 50%;
+        background-color: #EFEFEF;
+        position: relative;
+        z-index: -1;
+    }
+    .tarkovsky-t {
+        width: 280px;
+        height: 116px;
+        margin-left: 237px;
+        margin-top: 50px;
+        padding: 11px 15px;
+    }
+    .tarkovsky-text {
+        width: 250px;
+        height: 66px;
+        font-size: 14px;
+    }
+    .author-t {
+        font-size: 12px;
+        line-height: 15px;
+        margin-top: 16px;
+    }
+    .program {
+        padding-bottom: 52px;
+    }
+    .title-t h1{
+        font-size: 32px;
+    }
+    .container-cards-t {
+        padding-top: 55px;
+        max-width: 754px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card {
+        width: 231px;
+        height: 190px;
+        border-radius: 18px;
+        margin: 0 10px;
+        margin-bottom: 24px;
+    }
+    .card h2 {
+        font-size: 17px;
+        margin-left: 11px;
+        margin-top: 7px;
+        line-height: 22px;
+    }
+    .card p {
+        font-size: 14px;
+        margin-left: 11px;
+        margin-top: 18px;
+        line-height: 18px;
+    }
+    .card:nth-child(8) p {
+        margin-top: 8px;
+    }
+    .card:nth-child(8) h2 {
+        line-height: 17px;
+    }
+}
+
+@media screen and (max-width: 833px) {
+    .container-t {
+        width: 305px;
+        margin: auto;
+    }
+    header {
+        padding-top: 36px;
+    }
+    .logo-t img {
+        width: 52px;
+    }
+    main {
+        padding-bottom: 75px;
+        padding-top: 45px;
+    }
+    .calendar-t-item img {
+        width: 10px;
+    }
+    .calendar-t-item p {
+        width: 61px;
+        font-size: 10px;
+        margin-left: 4px;
+    }
+    .main-content-t {
+        padding-top: 8px;
+    }
+    .main-content-text-t {
+        width: 293px;
+    }
+    .main-title-t h1 {
+        font-size: 37px;
+    }
+    .main-content-text-t p {
+        width: 213px;
+        font-size: 10px;
+    }
+    .main-image-t {
+        margin-left: 165px;
+    }
+    .main-image-t img {
+        width: 142px;
+    }
+    .ellipse-1 {
+        width: 127px;
+        height: 19px;
+        border-radius: 50%;
+        background-color: #EFEFEF;
+        position: relative;
+        z-index: -1;
+        bottom: 15px;
+        left: 15px;
+    }
+    .tarkovsky-t {
+        width: 225px;
+        height: 93px;
+        margin-top: 48px;
+        padding: 8px 12px;
+        margin-left: 0;
+    }
+    .tarkovsky-text {
+        width: 201px;
+        height: 53px;
+        font-size: 11px;
+    }
+    .author-t {
+        font-size: 11px;
+        line-height: 14px;
+        margin-top: 10px;
+    }
+    .program {
+        padding-bottom: 47px;
+    }
+    .title-t h1{
+        font-size: 26px;
+    }
+    .container-cards-t {
+        padding-top: 36px;
+        max-width: 186px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card {
+        width: 186px;
+        height: 153px;
+        border-radius: 14px;
+        margin: 0;
+        margin-bottom: 24px;
+    }
+    .card h2 {
+        font-size: 14px;
+        line-height: 18px;
+        margin-left: 9px;
+        margin-top: 5px;
+    }
+    .card p {
+        font-size: 12px;
+        line-height: 15px;
+        margin-left: 9px;
+        margin-top: 15px;
+    }
+    .card:nth-child(8) p {
+        margin-top: 5px;
+    }
+    .card:nth-child(8) h2{
+        line-height: 14px;
+    }
+}
